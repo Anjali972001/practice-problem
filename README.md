@@ -33,3 +33,8 @@ Searching sorting problems
 
 7.Count nodes of linked list
 
+
+
+
+8. Search an element in Sorted Array
+
