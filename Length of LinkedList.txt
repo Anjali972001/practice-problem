@@ -1,0 +1,76 @@
+Linked List 
+
+1.to print the length of the linked list
+
+Output:--
+LinkedList: 10-->20-->30-->40-->null 
+length of the Linked List: 4
+
+
+Program--->
+public class Main
+{
+    private ListNode head;
+    public static class ListNode
+    {
+        private int data;
+        private ListNode next;
+        ListNode(int data)
+        {
+            this.data=data;
+            this.next=null;
+        }
+        
+        
+    }
+	public static void main(String[] args) 
+{
+	Main sll=new Main();
+	sll.head=new ListNode(10);
+        ListNode second=new ListNode(20);
+        ListNode third=new ListNode(30);
+	ListNode forth=new ListNode(40);
+        sll.head.next=second;
+	second.next=third;
+	third.next=forth;
+	System.out.print("LinkedList: ");
+	sll.print();
+	System.out.println(" ");
+	System.out.print("length of the Linked List: ");
+	
+	System.out.println(sll.length());
+	
+	}
+	//length of the linkedList
+	public int length ()
+	{
+	    ListNode n=head;
+	    int count=0;
+	    if (head==null)
+	  {
+	      return 0;
+	  }
+	    while(n!=null)
+	    {
+	     count++ ;
+	     n=n.next;
+	    }
+	    return count;
+	}
+	// to print the linkedList
+	public void print()
+	{
+	    ListNode n=head;
+	    while(n != null)
+	    {
+	        System.out.print(n.data+"-->");
+	        n=n.next;
+	    }
+	    System.out.print("null");
+	}
+}
+
+
+
+
+  
