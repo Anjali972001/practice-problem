@@ -28,3 +28,8 @@ Searching sorting problems
 
 6.Insertion in Linked list at first position.
 
+
+
+
+7.Count nodes of linked list
+
