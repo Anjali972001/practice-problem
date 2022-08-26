@@ -20,3 +20,7 @@ Searching sorting problems
 
 4.Print the linked list
 
+
+
+5.Length of linkedList
+
