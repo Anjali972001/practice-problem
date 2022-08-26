@@ -24,3 +24,7 @@ Searching sorting problems
 
 5.Length of linkedList
 
+
+
+6.Insertion in Linked list at first position.
+
