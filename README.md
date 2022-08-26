@@ -36,5 +36,10 @@ Searching sorting problems
 
 
 
+8.Search an element in sorted array
+
+
+
+
 8. Search an element in Sorted Array
 
